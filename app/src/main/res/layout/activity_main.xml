@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <!-- Deposit Button (Top-left corner) -->
+    <Button
+        android:id="@+id/depositButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deposit Money"
+        android:padding="12dp"
+        android:backgroundTint="@color/dimblue"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <!-- Login Button (Top-right corner) -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:padding="12dp"
+        android:backgroundTint="@color/dimblue"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/depositButton"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Source Location Input -->
+            <EditText
+                android:id="@+id/sourceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Source"
+                android:padding="12dp"
+                android:background="@android:drawable/editbox_background"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Destination Location Input -->
+            <EditText
+                android:id="@+id/destinationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Destination"
+                android:padding="12dp"
+                android:background="@android:drawable/editbox_background"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Calculate Price Button -->
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate Price"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/dimblue"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <!-- Display Calculated Price -->
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estimate Price is: "
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Pay Now Button -->
+            <Button
+                android:id="@+id/payNowButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pay Now"
+                android:padding="12dp"
+                android:backgroundTint="@color/dimblue"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

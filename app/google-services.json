@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527567709360",
+    "project_id": "digtal-codriver",
+    "storage_bucket": "digtal-codriver.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527567709360:android:ed0877505a30a799b0c775",
+        "android_client_info": {
+          "package_name": "com.example.digtai_codriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfMDeg-MQbQN0qUZxAs2ax2sIqcPU0UbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

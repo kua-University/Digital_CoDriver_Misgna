@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="payment_options">
+        <item>CBEBirr</item>
+        <item>TELEBirr</item>
+    </string-array>
+    <string name="Digtai_Codriver">Digtai Codriver Logo</string>
+
+        <string name="app_name">Digtal-CoDriver</string>
+
+
+</resources>
