@@ -72,7 +72,7 @@ public class DepositActivity extends AppCompatActivity {
             return;
         }
 
-        Toast.makeText(this, "Depositing $" + amount + " via " + selectedPaymentMethod + " to phone " + phoneNumber, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Depositing " + amount + "Birr"+" via " + selectedPaymentMethod + " to phone " + phoneNumber, Toast.LENGTH_LONG).show();
 
         // Here you can add further actions like API calls to process the deposit
     }

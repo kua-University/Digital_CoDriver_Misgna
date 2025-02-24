@@ -86,7 +86,7 @@ public class SignupActivity extends AppCompatActivity {
         String email = emailEditText.getText().toString().trim();
         String password = passwordEditText.getText().toString().trim();
         String confirmPassword = confirmPasswordEditText.getText().toString().trim();
-        Double balance = 0.0;
+        Double balance = 1000.0;
 
         // Validate input fields
         if (fname.isEmpty() || lname.isEmpty()) {
